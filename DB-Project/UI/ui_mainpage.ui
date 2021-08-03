@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>785</width>
+    <height>722</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>LinkedIn</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_current_user">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget_posts_by_users_in_network">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>80</y>
+      <width>331</width>
+      <height>111</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>60</y>
+      <width>260</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>posts that are posted by the people in your network</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget_posts_by_users_in_network_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>300</y>
+      <width>331</width>
+      <height>111</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>280</y>
+      <width>290</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>posts that are liked by the people in your network</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget_posts_by_users_in_network_3">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>510</y>
+      <width>331</width>
+      <height>111</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>490</y>
+      <width>331</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>posts that are commented by the people in your network</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_like_posts">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>80</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Like </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_share_posts">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>120</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Share</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_like_posts_2">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>300</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Like</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_share_posts_2">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>340</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Share</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_share_posts_3">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>550</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Share</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_like_posts_3">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>510</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Like</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_show_comments">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>200</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Show comments</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_show_comments_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>420</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Show comments</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_show_comments_3">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>630</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Show comments</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget_info">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>80</y>
+      <width>181</width>
+      <height>111</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget_info_2">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>300</y>
+      <width>181</width>
+      <height>111</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget_info_3">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>510</y>
+      <width>181</width>
+      <height>111</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>60</y>
+      <width>176</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>number of likes and comments</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>280</y>
+      <width>176</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>number of likes and comments</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>490</y>
+      <width>176</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>number of likes and comments</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_refresh">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>10</y>
+      <width>51</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>refresh</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>785</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuProfile">
+    <property name="title">
+     <string>Profile</string>
+    </property>
+    <addaction name="actionEdit_profile"/>
+   </widget>
+   <widget class="QMenu" name="menuHome">
+    <property name="title">
+     <string>Home</string>
+    </property>
+    <addaction name="actionhome"/>
+    <addaction name="actionlog_out"/>
+   </widget>
+   <widget class="QMenu" name="menuMy_network">
+    <property name="title">
+     <string>My network</string>
+    </property>
+    <addaction name="actionMy_network"/>
+   </widget>
+   <widget class="QMenu" name="menuSearch">
+    <property name="title">
+     <string>Search</string>
+    </property>
+    <addaction name="actionSearch_user"/>
+   </widget>
+   <widget class="QMenu" name="menuDirect">
+    <property name="title">
+     <string>Direct</string>
+    </property>
+    <addaction name="actionDirect"/>
+   </widget>
+   <widget class="QMenu" name="menuPost">
+    <property name="title">
+     <string>Post</string>
+    </property>
+    <addaction name="actionMy_Post"/>
+   </widget>
+   <widget class="QMenu" name="menuNotification">
+    <property name="title">
+     <string>Notification</string>
+    </property>
+    <addaction name="actionShow"/>
+   </widget>
+   <addaction name="menuHome"/>
+   <addaction name="menuProfile"/>
+   <addaction name="menuMy_network"/>
+   <addaction name="menuSearch"/>
+   <addaction name="menuDirect"/>
+   <addaction name="menuPost"/>
+   <addaction name="menuNotification"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionEdit_profile">
+   <property name="text">
+    <string>Edit profile</string>
+   </property>
+  </action>
+  <action name="actionMy_network">
+   <property name="text">
+    <string>My network</string>
+   </property>
+  </action>
+  <action name="actionhome">
+   <property name="text">
+    <string>home</string>
+   </property>
+  </action>
+  <action name="actionlog_out">
+   <property name="text">
+    <string>log out</string>
+   </property>
+  </action>
+  <action name="actionSearch_user">
+   <property name="text">
+    <string>Search user</string>
+   </property>
+  </action>
+  <action name="actionDirect">
+   <property name="text">
+    <string>Direct</string>
+   </property>
+  </action>
+  <action name="actionMy_Post">
+   <property name="text">
+    <string>My Posts</string>
+   </property>
+  </action>
+  <action name="actionShow">
+   <property name="text">
+    <string>Show</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
